@@ -1,0 +1,240 @@
+<!<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kiss.gourmet</title>
+  
+<link rel="shortcut icon" href="imagens/log01.jpg" type="image/x-icon">
+
+  <style>
+    :root {
+      --rosa-claro: #fa62ccd8;
+      --rosa: #fa62ccd8;
+      --marrom: #5e3c2c;
+      --bege: #fff8f1;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h2{ margin: 10px;
+        padding: 10px;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bege);
+      color: var(--marrom);
+    }
+
+    header {
+      background-color: var(--rosa);
+      color: black;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    font-family: sans-serif;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+
+    nav {
+  
+      display: flex;
+      justify-content: left;
+      gap: 2rem;
+      padding: 0.2rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--marrom);
+      margin: 5px;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+
+      border-radius: 20px;
+      transition-duration: 0.5s;
+      border: 2px solid black;
+      background-color: #fa62ccd8;;
+    }
+
+    nav > a:hover{
+      color: white;
+      padding: 5px;
+    }
+
+    a.sobre_nos{
+      color: #fa62ccd8;
+      background-color: white;
+    }
+
+    a.kiss{
+      text-decoration:none ;
+      color: black;
+      background-color: white;
+    }
+
+    a.kiss:hover{
+      background-color: blue;
+      color: var(--rosa);
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+      text-indent: 30px;
+      
+    }
+
+    section#contato{
+      box-shadow: 0px 0px 10px black;
+    }
+
+    section#historia{
+      box-shadow: 0px 0px 10px black;
+    }
+
+    
+
+    section > h2{
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    section > p{
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    section > ul{
+      list-style-type: '\2714\00A0\00A0';
+      font-weight: bold;
+      padding: 15px;
+      columns: 2;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .about, .contact {
+      background-color: var(--rosa-claro);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    footer {
+      background-color: var(--rosa);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    img.logo{
+      width: 150px;
+      height: 100px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    p.principal{
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><img class="logo" src="../imagens/log01.jpeg" alt=""></h1>
+    <h2>KISS GOURMET</h2>
+    <p class="principal">"Tornamos momentos doces inesquecíveis!"</p>
+  </header>
+
+  <nav>
+    <a class="inicio" href="../kissgourmet.html">Início</a>
+    <a href="../pagina_galeria/galeria.html">Galeria</a>
+    <a class="sobre_nos" href="sobre_nos.html">Sobre Nós</a>
+    <a href="https://wa.me/557999015660?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os" target="_blank
+    ">Contato</a>
+  </nav>
+
+
+  <section id="historia" class="section about">
+    <h2>🍰 Nossa História – Um Doce Começo</h2>
+    <p>Tudo começou com um sonho simples: levar mais doçura para o dia das pessoas.</p>
+
+    <p>Em 2025, nasceu a Kiss Gourmet, uma confeitaria feita com amor, dedicação e muito sabor. Fundada por Lais Silva, apaixonada pela arte de confeitar desde a infância, a Kiss Gourmet surgiu da vontade de transformar momentos comuns em memórias inesquecíveis — com receitas caseiras, ingredientes selecionados e um toque especial de carinho.</p>
+
+    <img src="../imagens/inauguração01.jpeg" alt="" style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+    <p>O que começou na cozinha de casa rapidamente ganhou o coração de amigos, vizinhos e clientes da região. A cada bolo entregue, crescia também a certeza de que aquele sonho merecia ganhar um espaço próprio.</p>
+
+    <p>Foi assim que, com muito esforço e amor, a Kiss Gourmet abriu suas portas em um cantinho aconchegante na Rua H, 155 – Parque São José, pronta para receber todos que desejam tornar seus momentos ainda mais doces.</p>
+
+    <img src="../imagens/inaguração02.jpeg" alt="" style="width: 600px; height: 850px; display: block; margin: 20px auto;">
+
+    <p>Hoje, oferecemos bolos artesanais, doces finos, sobremesas personalizadas e atendimento acolhedor. Nosso propósito vai além de vender doces: queremos fazer parte das suas histórias, das suas celebrações e dos seus sorrisos.</p>
+
+    <p>Seja bem-vindo à Kiss Gourmet. Aqui, cada detalhe tem sabor de amor.</p>
+
+  </section>
+
+  <section id="missao" class="section contact">
+    <h2>Missão e Visão</h2>
+
+    <p>Encantar pessoas com produtos artesanais de alta qualidade, feitos com amor e ingredientes selecionados, oferecendo experiências doces que celebram momentos especiais.</p>
+   
+    <p>Ser reconhecida como uma das melhores confeitárias da região, referencia por criatividade, sabor e excelência no atendimento, levando doçura a todos os cantos do Brasil.</p>
+
+ <img src="../imagens/missao.jpeg" alt="" style="width: 600px; height: 750px; display: block; margin: 20px auto;">
+
+  </section>
+
+
+  <section id="contato" class="section contact">
+    <h2>📞 Fale Conosco</h2>
+    <p>WhatsApp: (79) 99901-5660</p>
+    <p>Email: contato@deliciasconfeitaria.com</p>
+    <p>Instagram: <a class="kiss" href="https://www.instagram.com/kiss.gourmet/">@Kiss.gourmet</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delícias da Confeitaria Kiss Gourmet. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
