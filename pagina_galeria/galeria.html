@@ -7,7 +7,7 @@
   
 <link rel="shortcut icon" href="imagens/log01.jpg" type="image/x-icon">
 
-  <style>
+   <style>
     :root {
       --rosa-claro: #fa62ccd8;
       --rosa: #fa62ccd8;
@@ -31,7 +31,7 @@
       color: var(--marrom);
     }
 
-     header {
+    header {
       background-color: var(--rosa);
       color: black;
       text-align: center;
@@ -75,12 +75,12 @@
       padding: 5px;
     }
 
-    a.galeria{
+    a.inicio{
       color: #fa62ccd8;
       background-color: white;
     }
 
-     a.kiss{
+    a.kiss{
       text-decoration:none ;
       color: black;
       background-color: white;
@@ -95,30 +95,34 @@
       padding: 2rem 1rem;
       max-width: 1200px;
       margin: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+      
     }
 
     section#contato{
       box-shadow: 0px 0px 10px black;
     }
 
-    section#historia{
+    section#sobre{
       box-shadow: 0px 0px 10px black;
+      text-indent: 30px;
     }
 
-    section#geral{
-      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-
+    section > h2{
+      background-color: white;
+      border-radius: 10px;
     }
 
-  section > p{
+    section > p{
       padding: 10px;
       font-weight: bold;
     }
 
-
-     section > h2{
-      background-color: white;
-      border-radius: 10px;
+    section > ul{
+      list-style-type: '\2714\00A0\00A0';
+      font-weight: bold;
+      padding: 15px;
+      columns: 2;
     }
 
     .gallery {
@@ -147,14 +151,6 @@
       padding: 1rem;
       margin-top: 2rem;
     }
-
-    img{
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    
 
     img.logo{
       width: 150px;
