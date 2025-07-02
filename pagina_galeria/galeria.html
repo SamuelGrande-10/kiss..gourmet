@@ -31,19 +31,21 @@
       color: var(--marrom);
     }
 
-    header {
+     header {
       background-color: var(--rosa);
-      color: white;
+      color: black;
       text-align: center;
       padding: 2rem 1rem;
     }
 
     header h1 {
       font-size: 2.5rem;
+    font-family: sans-serif;
     }
 
     header p {
       font-size: 1.2rem;
+      font-style: italic;
     }
 
     nav {
@@ -78,10 +80,45 @@
       background-color: white;
     }
 
+     a.kiss{
+      text-decoration:none ;
+      color: black;
+      background-color: white;
+    }
+
+    a.kiss:hover{
+      background-color: blue;
+      color: var(--rosa);
+    }
+
     .section {
       padding: 2rem 1rem;
       max-width: 1200px;
       margin: auto;
+    }
+
+    section#contato{
+      box-shadow: 0px 0px 10px black;
+    }
+
+    section#historia{
+      box-shadow: 0px 0px 10px black;
+    }
+
+    section#geral{
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+
+    }
+
+  section > p{
+      padding: 10px;
+      font-weight: bold;
+    }
+
+
+     section > h2{
+      background-color: white;
+      border-radius: 10px;
     }
 
     .gallery {
@@ -111,10 +148,13 @@
       margin-top: 2rem;
     }
 
+    
+
     img.logo{
       width: 150px;
       height: 100px;
       border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
     }
 
     p.principal{
@@ -137,37 +177,85 @@
 
   <header>
     <h1><img class="logo" src="../imagens/log01.jpeg" alt=""></h1>
+    <h2>KISS GOURMET</h2>
     <p class="principal">"Tornamos momentos doces inesquecíveis!"</p>
   </header>
 
   <nav>
-    <a href="../kissgourmet.html">Início</a>
+    <a href="../kiss.gourmet.html">Início</a>
     <a class="galeria" href="galeria.html">Galeria</a>
     <a href="../pagina_sobre_nos/sobre_nos.html">Sobre Nós</a>
     <a href="https://wa.me/557999015660?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os" target="_blank
     ">Contato</a>
   </nav>
 
-  <section id="galeria" class="section">
-    <h2>🍰 Nossos Bolos</h2>
-    <div class="gallery">
-      <img src="imagens/foto01.jpg" alt="Bolo 1">
-      <img src="imagens/foto02.jpg" alt="Bolo 2">
-      <img src="imagens/foto03.jpg" alt="Bolo 3">
-      <img src="imagens/foto04.jpg" alt="Bolo 4">
-    </div>
+  <section id="geral" class="section about">
+    <h2>SALGADOS🍰😋</h2>
+
+    <img src="../imagens/bol1.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
   </section>
 
-  <section id="sobre" class="section about">
-    <h2>🎂 Sobre Nós</h2>
-    <p>Somos apaixonados por confeitaria! Com receitas feitas com amor, oferecemos bolos caseiros, artísticos e personalizados para todos os gostos. Desde aniversários até casamentos, temos uma delícia para cada ocasião!</p>
+   <section id="geral" class="section about">
+    <h2>DOCES🍰😋</h2>
+
+    <img src="../imagens/bol2.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+  <section id="geral" class="section about">
+    <h2>BOLOS DE ANDARES🍰😋</h2>
+
+    <img src="../imagens/bol3.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>BOLOS ARTESANAIS CONFEITADOS🍰😋</h2>
+
+    <img src="../imagens/bol4.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>BENTO CAKE PRESENTEÁVEIS🍰😋</h2>
+
+    <img src="../imagens/bol5.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>BOLOS LINHA CAFÉ DA MANHÃ🍰😋</h2>
+
+    <img src="../imagens/bol6.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>BRIGADEIROS🍰😋</h2>
+
+    <img src="../imagens/bol7.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>PÃES ARTESANAIS🍰😋</h2>
+
+    <img src="../imagens/bol8.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
+  </section>
+
+   <section id="geral" class="section about">
+    <h2>EMPADÕES🍰😋 </h2>
+
+    <img src="../imagens/bol9.jpeg" alt=""  style="width: 700px; height: 800px; display: block; margin: 20px auto;">
+
   </section>
 
   <section id="contato" class="section contact">
     <h2>📞 Fale Conosco</h2>
-    <p>WhatsApp: (11) 98765-4321</p>
-    <p>Email: contato@deliciasconfeitaria.com</p>
-    <p>Instagram: <a href="https://www.instagram.com/kiss.gourmet/">@Kiss.gourmet</a></p>
+    <p>WhatsApp: (79) 99901-5660</p>
+    <p>Instagram: <a class="kiss" href="https://www.instagram.com/kiss.gourmet/">@Kiss.gourmet</a></p>
   </section>
 
   <footer>
